@@ -20,10 +20,10 @@ class Bot:
 
        
         email_in = self.driver.find_element_by_xpath('//*[@id="email"]')
-        email_in.send_keys('yudhiesh305@live.com.my')
+        email_in.send_keys('')
 
         pw_in = self.driver.find_element_by_xpath('//*[@id="pass"]')
-        pw_in.send_keys('yudhiesh03031997')
+        pw_in.send_keys('')
 
         login_btn = self.driver.find_element_by_xpath('//*[@id="u_0_0"]')
         login_btn.click()
